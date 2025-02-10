@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+/* Hide elements initially */
+.hidden {
+    display: none;
+}
+
+/* Envelope Styling */
+.envelope {
+    display: flex;
+    align-items: center;  /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+    text-align: center;
+    background-color: #E74C3C;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+    height: 300px;
+    width: 500px;
+}
+
+.stamp {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 18px;
+}
+
+/* Question Page Styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Ensures buttons are properly placed */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+/* Yes button */
+#yesBtn {
+    background-color: #E74C3C;
+    color: white;
+}
+
+/* No button - starts below Yes */
+#noBtn {
+    background-color: white;
+    color: #E74C3C;
+    border: 2px solid #E74C3C;
+    position: relative;
+    opacity: 1;
+}
+
+#final img {
+    width: 350px; /* Adjust width as needed */
+    height: auto;  /* Maintains aspect ratio */
+    margin: 20px 0;
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
