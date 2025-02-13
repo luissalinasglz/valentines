@@ -15,15 +15,6 @@ function moveNo() {
     noBtn.style.position = "absolute";
     noBtn.style.left = `${x}px`;
     noBtn.style.top = `${y}px`;
-
-    // Gradually fade out
-    opacity -= 0.1; 
-    noBtn.style.opacity = opacity;
-
-    // Remove button when fully faded
-    if (opacity <= 0) {
-        noBtn.style.display = "none";
-    }
 }
 
 function showFinal() {

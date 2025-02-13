@@ -20,35 +20,6 @@ body {
     height: 200px;
 }
 
-/* Hide elements initially */
-.hidden {
-    display: none;
-}
-
-/* Envelope Styling */
-.envelope {
-    display: flex;
-    align-items: center;  /* Centers vertically */
-    justify-content: center; /* Centers horizontally */
-    text-align: center;
-    background-color: #E74C3C;
-    color: rgb(255, 255, 255);
-    padding: 50px;
-    border-radius: 10px;
-    font-size: 40px;
-    cursor: pointer;
-    position: relative;
-    height: 300px;
-    width: 500px;
-}
-
-.stamp {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 18px;
-}
-
 /* Question Page Styling */
 h1 {
     font-size: 24px;
